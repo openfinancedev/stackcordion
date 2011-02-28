@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* StackcordionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* StackcordionAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		DFA19C73131BBCA4004FA5D7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA19C6C131BBCA4004FA5D7 /* MainWindow.xib */; };
+		DFA19C74131BBCA4004FA5D7 /* MenuScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA19C6D131BBCA4004FA5D7 /* MenuScrollView.xib */; };
+		DFA19C76131BBCA4004FA5D7 /* TableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA19C6F131BBCA4004FA5D7 /* TableView.xib */; };
+		DFA19C77131BBCA4004FA5D7 /* DefaultMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA19C71131BBCA4004FA5D7 /* DefaultMainView.xib */; };
+		DFA19C78131BBCA4004FA5D7 /* DefaultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA19C72131BBCA4004FA5D7 /* DefaultView.xib */; };
+		DFA19C85131BBCB6004FA5D7 /* MenuScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA19C7A131BBCB6004FA5D7 /* MenuScrollViewController.m */; };
+		DFA19C86131BBCB6004FA5D7 /* ImagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA19C7D131BBCB6004FA5D7 /* ImagesHelper.m */; };
+		DFA19C87131BBCB6004FA5D7 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA19C7F131BBCB6004FA5D7 /* TableViewController.m */; };
+		DFA19C88131BBCB6004FA5D7 /* DefaultMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA19C82131BBCB6004FA5D7 /* DefaultMainViewController.m */; };
+		DFA19C89131BBCB6004FA5D7 /* DefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA19C84131BBCB6004FA5D7 /* DefaultViewController.m */; };
+		DFA19CC0131BBF10004FA5D7 /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA19CBF131BBF10004FA5D7 /* gradient.png */; };
+		DFCB6E1D131BD95800A3E4F2 /* README in Resources */ = {isa = PBXBuildFile; fileRef = DFCB6E1C131BD95800A3E4F2 /* README */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* StackcordionAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackcordionAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* StackcordionAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackcordionAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Stackcordion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stackcordion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Stackcordion_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stackcordion_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Stackcordion-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Stackcordion-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DFA19C6C131BBCA4004FA5D7 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
+		DFA19C6D131BBCA4004FA5D7 /* MenuScrollView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MenuScrollView.xib; path = Resources/MenuScrollView.xib; sourceTree = "<group>"; };
+		DFA19C6F131BBCA4004FA5D7 /* TableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableView.xib; path = Resources/TableView.xib; sourceTree = "<group>"; };
+		DFA19C71131BBCA4004FA5D7 /* DefaultMainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefaultMainView.xib; sourceTree = "<group>"; };
+		DFA19C72131BBCA4004FA5D7 /* DefaultView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefaultView.xib; sourceTree = "<group>"; };
+		DFA19C79131BBCB6004FA5D7 /* MenuScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScrollViewController.h; sourceTree = "<group>"; };
+		DFA19C7A131BBCB6004FA5D7 /* MenuScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScrollViewController.m; sourceTree = "<group>"; };
+		DFA19C7C131BBCB6004FA5D7 /* ImagesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesHelper.h; sourceTree = "<group>"; };
+		DFA19C7D131BBCB6004FA5D7 /* ImagesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesHelper.m; sourceTree = "<group>"; };
+		DFA19C7E131BBCB6004FA5D7 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		DFA19C7F131BBCB6004FA5D7 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		DFA19C81131BBCB6004FA5D7 /* DefaultMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultMainViewController.h; sourceTree = "<group>"; };
+		DFA19C82131BBCB6004FA5D7 /* DefaultMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultMainViewController.m; sourceTree = "<group>"; };
+		DFA19C83131BBCB6004FA5D7 /* DefaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultViewController.h; sourceTree = "<group>"; };
+		DFA19C84131BBCB6004FA5D7 /* DefaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultViewController.m; sourceTree = "<group>"; };
+		DFA19CBF131BBF10004FA5D7 /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient.png; sourceTree = "<group>"; };
+		DFCB6E1C131BD95800A3E4F2 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* StackcordionAppDelegate.h */,
+				1D3623250D0F684500981E51 /* StackcordionAppDelegate.m */,
+				DFA19C7B131BBCB6004FA5D7 /* Shared */,
+				DFA19C79131BBCB6004FA5D7 /* MenuScrollViewController.h */,
+				DFA19C7A131BBCB6004FA5D7 /* MenuScrollViewController.m */,
+				DFA19C7E131BBCB6004FA5D7 /* TableViewController.h */,
+				DFA19C7F131BBCB6004FA5D7 /* TableViewController.m */,
+				DFA19C80131BBCB6004FA5D7 /* VistasEnBlanco */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Stackcordion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				DFA19CBE131BBF10004FA5D7 /* Images */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				DFCB6E1C131BD95800A3E4F2 /* README */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Stackcordion_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFA19C6C131BBCA4004FA5D7 /* MainWindow.xib */,
+				DFA19C6D131BBCA4004FA5D7 /* MenuScrollView.xib */,
+				DFA19C6F131BBCA4004FA5D7 /* TableView.xib */,
+				DFA19C70131BBCA4004FA5D7 /* VistaEnBlanco */,
+				8D1107310486CEB800E47090 /* Stackcordion-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFA19C70131BBCA4004FA5D7 /* VistaEnBlanco */ = {
+			isa = PBXGroup;
+			children = (
+				DFA19C71131BBCA4004FA5D7 /* DefaultMainView.xib */,
+				DFA19C72131BBCA4004FA5D7 /* DefaultView.xib */,
+			);
+			name = VistaEnBlanco;
+			path = Resources/VistaEnBlanco;
+			sourceTree = "<group>";
+		};
+		DFA19C7B131BBCB6004FA5D7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DFA19C7C131BBCB6004FA5D7 /* ImagesHelper.h */,
+				DFA19C7D131BBCB6004FA5D7 /* ImagesHelper.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DFA19C80131BBCB6004FA5D7 /* VistasEnBlanco */ = {
+			isa = PBXGroup;
+			children = (
+				DFA19C81131BBCB6004FA5D7 /* DefaultMainViewController.h */,
+				DFA19C82131BBCB6004FA5D7 /* DefaultMainViewController.m */,
+				DFA19C83131BBCB6004FA5D7 /* DefaultViewController.h */,
+				DFA19C84131BBCB6004FA5D7 /* DefaultViewController.m */,
+			);
+			path = VistasEnBlanco;
+			sourceTree = "<group>";
+		};
+		DFA19CBE131BBF10004FA5D7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DFA19CBF131BBF10004FA5D7 /* gradient.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Stackcordion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Stackcordion" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stackcordion;
+			productName = Stackccordion;
+			productReference = 1D6058910D05DD3D006BFB54 /* Stackcordion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Stackcordion" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Stackcordion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA19C73131BBCA4004FA5D7 /* MainWindow.xib in Resources */,
+				DFA19C74131BBCA4004FA5D7 /* MenuScrollView.xib in Resources */,
+				DFA19C76131BBCA4004FA5D7 /* TableView.xib in Resources */,
+				DFA19C77131BBCA4004FA5D7 /* DefaultMainView.xib in Resources */,
+				DFA19C78131BBCA4004FA5D7 /* DefaultView.xib in Resources */,
+				DFA19CC0131BBF10004FA5D7 /* gradient.png in Resources */,
+				DFCB6E1D131BD95800A3E4F2 /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* StackcordionAppDelegate.m in Sources */,
+				DFA19C85131BBCB6004FA5D7 /* MenuScrollViewController.m in Sources */,
+				DFA19C86131BBCB6004FA5D7 /* ImagesHelper.m in Sources */,
+				DFA19C87131BBCB6004FA5D7 /* TableViewController.m in Sources */,
+				DFA19C88131BBCB6004FA5D7 /* DefaultMainViewController.m in Sources */,
+				DFA19C89131BBCB6004FA5D7 /* DefaultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Stackcordion_Prefix.pch;
+				INFOPLIST_FILE = "Stackcordion-Info.plist";
+				PRODUCT_NAME = Stackcordion;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Stackcordion_Prefix.pch;
+				INFOPLIST_FILE = "Stackcordion-Info.plist";
+				PRODUCT_NAME = Stackcordion;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Stackcordion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Stackcordion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
